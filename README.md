@@ -1,5 +1,6 @@
 # SchoolWork
-Some of the programs I have built for school
+Some of the programs I have created during my pursuit in my Computer Science degree.
+I am currently set to graduate in May 2025 with a Bachelors in Computer Science from Northeastern State University.
 
 ## **Age Calculator Program:**
 

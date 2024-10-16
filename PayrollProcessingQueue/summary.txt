@@ -1,0 +1,6 @@
+Total Gross Pay: $29448.00
+Total Federal Tax: $5708.60
+Total State Tax: $137.50
+Total Social Security: $1914.12
+Total Medicare: $147.24
+Total Net Pay: $21540.54

@@ -1,0 +1,5 @@
+Linked List (Unique, Sorted in Descending Order):
+19 17 15 13 11 9 1 
+Tyler (Duplicates) Array:
+9 1 9 
+Total number of unique elements in Linked List: 7

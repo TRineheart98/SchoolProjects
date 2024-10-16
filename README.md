@@ -28,7 +28,8 @@ Key Concepts and Tools:
     Modular Design: Functions are clearly separated between files for ease of maintenance and expansion.
     User Interaction: The program interacts with users through a console interface, ensuring a seamless experience with clear error messages and prompts.
 
-## **Linked List Program:**
+## **Linked List Program:** <font color="green"> Some green text </font>
+
 
 This C++ program generates random odd numbers, stores them in a linked list, and ensures that only unique numbers are stored in descending order. The program provides robust error handling and data validation, with a clean separation of logic using header and source files to ensure modular and maintainable code.
 Files and Structure

@@ -1,7 +1,7 @@
-# SchoolWork
+### SchoolWork
 Some of the programs I have built for school
 
-#**Age Calculator Program:**
+### **Age Calculator Program:**
 
 This C++ program calculates a person’s age based on their birthdate, providing robust error handling and data validation. It is designed with a clean separation of logic using header and source files, ensuring modular and maintainable code.
 Files and Structure

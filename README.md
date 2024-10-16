@@ -82,15 +82,12 @@ User Interaction:
 
 This C++ program processes payroll for employees using a queue data structure. It reads employee information from a CSV file, calculates gross pay, taxes, and net pay, and outputs the results to both the console and text files. The program includes robust error handling, input validation, and a clean separation of logic using header and source files, ensuring modular and maintainable code.
 Files and Structure
-queueOperation.h
 
-Contains the declarations of the Employee structure and the Queue class. It includes utility functions for enqueueing, dequeueing, displaying employees, calculating payroll details (gross pay, taxes, and net pay), and saving pay stubs to a file. The class also provides functionality to read employee data from a CSV file and generate summary reports.
-main.cpp
-
-Implements the core logic, including menu options for managing the queue and processing employee payroll. It handles employee enqueueing from a CSV file, dequeuing, and displaying employee information without removing them from the queue. The program also generates pay stubs and summary reports, ensuring accurate output of payroll data.
-payInputs.csv
-
-This CSV file contains employee data such as email, first name, last name, job title, hours worked, hourly wage, hours before overtime, overtime rate, and federal tax rate. The program reads this file to populate the queue with employees for payroll processing.
+    queueOperation.h: Contains the declarations of the Employee structure and the Queue class. It includes utility functions for enqueueing, dequeueing, displaying employees, calculating payroll details (gross pay, taxes, and net pay), and saving pay stubs to a file. The class also provides functionality to read employee data from a CSV file and generate summary reports.
+    
+    main.cpp: Implements the core logic, including menu options for managing the queue and processing employee payroll. It handles employee enqueueing from a CSV file, dequeuing, and displaying employee information without removing them from the queue. The program also generates pay stubs and summary reports, ensuring accurate output of payroll data.
+    
+    payInputs.csv: This CSV file contains employee data such as email, first name, last name, job title, hours worked, hourly wage, hours before overtime, overtime rate, and federal tax rate. The program reads this file to populate the queue with employees for payroll processing.
 
 Sample data:
 

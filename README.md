@@ -89,7 +89,7 @@ Files and Structure
     
     payInputs.csv: This CSV file contains employee data such as email, first name, last name, job title, hours worked, hourly wage, hours before overtime, overtime rate, and federal tax rate. The program reads this file to populate the queue with employees for payroll processing.
 
-    Sample data:
+    Sample data from csv:
     Email,FirstName,LastName,JobTitle,HoursWorked,HourlyWage,HoursBeforeOvertime,OvertimeRate,MarginalFederalTaxRate
     tyler.rineheart@gmail.com,Tyler,Rineheart,Software Engineer,40,300,35,1.5,20
     john.doe@gmail.com,John,Doe,Programmer,28,22,30,1.5,15

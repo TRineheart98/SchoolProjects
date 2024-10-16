@@ -31,14 +31,11 @@ Key Concepts and Tools:
 
 This C++ program generates random odd numbers, stores them in a linked list, and ensures that only unique numbers are stored in descending order. The program provides robust error handling and data validation, with a clean separation of logic using header and source files to ensure modular and maintainable code.
 Files and Structure
-linkedList.h
 
-    Contains the declarations for the ListNode struct and the LinkedList class.
+    linkedList.h: Contains the declarations for the ListNode struct and the LinkedList class.
     Implements utility functions for adding nodes, checking for duplicates, printing the list to the console and a file, and retrieving the list size.
 
-main.cpp
-
-    Implements the core logic, including generating random odd numbers and populating the linked list with input validation.
+    main.cpp: Implements the core logic, including generating random odd numbers and populating the linked list with input validation.
     Handles error checking through validation of input numbers, preventing invalid or duplicate entries.
     Outputs results, including the original array of random numbers, the linked list of unique numbers, and duplicates, both to the console and to a file.
 

@@ -29,52 +29,53 @@ Key Concepts and Tools:
 
 ## **Linked List Program:**
 
-This C++ program generates random odd numbers, stores them in a linked list, and ensures that the list is free of duplicates while maintaining a descending order. It also outputs the results to both the console and a text file for easy reference. The program includes robust error checking and validation, ensuring accurate data management and presentation.
+This C++ program generates random odd numbers, stores them in a linked list, and ensures that only unique numbers are stored in descending order. The program provides robust error handling and data validation, with a clean separation of logic using header and source files to ensure modular and maintainable code.
 Files and Structure
 linkedList.h
 
-    Contains the declaration of the ListNode struct and the LinkedList class.
-    Includes functions for adding nodes, checking for duplicates, printing the list, and retrieving the list size.
-    Implements functionality to manage the list dynamically and store unique numbers.
+    Contains the declarations for the ListNode struct and the LinkedList class.
+    Implements utility functions for adding nodes, checking for duplicates, printing the list to the console and a file, and retrieving the list size.
 
 main.cpp
 
-    Implements the core logic for generating random odd numbers, adding them to the linked list, and identifying duplicates.
-    The program stores 10 random odd numbers and removes any duplicates.
-    Duplicates are stored in a separate array and printed both to the console and to a file.
+    Implements the core logic, including generating random odd numbers and populating the linked list with input validation.
+    Handles error checking through validation of input numbers, preventing invalid or duplicate entries.
+    Outputs results, including the original array of random numbers, the linked list of unique numbers, and duplicates, both to the console and to a file.
 
 Core Features
+Random Number Generation:
+
+    Generates 10 random odd numbers between 1 and 100, ensuring variety and randomness.
+
 Linked List Management:
 
-    The linked list stores unique numbers in descending order, ensuring that no duplicates exist within the list.
-    Efficient memory management ensures that nodes are dynamically allocated and properly deleted.
+    Adds random numbers to the linked list in descending order, while checking for and removing duplicates.
+    Ensures efficient memory management with dynamic allocation and proper deallocation of nodes.
 
-Duplicate Handling:
+Duplicate Detection:
 
-    Duplicates are detected when adding numbers to the list, stored in a separate array, and counted.
-    If duplicates are found, they are printed to the console and saved to a file. Otherwise, the program reports no duplicates.
+    Detects duplicates during insertion into the linked list and stores them in a separate array.
+    Outputs any duplicates found to both the console and a file.
 
 Input and Output:
 
-    Generates 10 random odd numbers within the range of 1 to 100.
-    Outputs the original array, the unique linked list, and any duplicate numbers to both the console and a file (output.txt).
+    Outputs the original array (which may contain duplicates), the linked list (unique, sorted in descending order), and the duplicate array to both the console and a text file for further analysis.
+
+Error Checking and Validation
+
+    Ensures random numbers are odd and within the specified range (1 to 100).
+    Prevents duplicate entries in the linked list.
+    Validates that data is printed and saved correctly, handling any file I/O errors gracefully.
 
 Key Concepts and Tools
-Linked List:
+Input Validation:
 
-    The LinkedList class maintains the list structure, supporting the addition of nodes in descending order and preventing duplicates.
-    Includes helper methods for checking if a value exists, adding nodes, printing the list, and retrieving the size of the list.
+    Manages input data efficiently, ensuring the integrity of the linked list by preventing duplicate entries.
 
-Input and Output:
+Modular Design:
 
-    Outputs data to both the console and a text file (output.txt) to provide a clear representation of the results.
-    Demonstrates file handling with the ofstream library to write data.
+    Functions are clearly separated between the header and source files, allowing for ease of maintenance and future expansion.
 
-Error Handling:
+User Interaction:
 
-    Checks for duplicates during node insertion.
-    Ensures memory is properly deallocated when the program finishes.
-
-Conclusion
-
-This program demonstrates the use of linked lists for dynamic memory management, random number generation, and file handling. It provides a clean, modular structure with a focus on efficiency, error checking, and output management.
+    The program interacts with users through the console interface, providing clear error messages and feedback when duplicates are found or numbers are inserted into the linked list.

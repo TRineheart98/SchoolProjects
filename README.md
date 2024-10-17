@@ -5,6 +5,7 @@ I am currently set to graduate in May 2025 with a Bachelors in Computer Science 
 ## **Age Calculator Program:**
 
 This C++ program calculates a person’s age based on their birthdate, providing robust error handling and data validation. It is designed with a clean separation of logic using header and source files, ensuring modular and maintainable code.
+
 Files and Structure
 
     Person.h: Contains the declarations of the Person structure, utility functions for calculating age, and displaying the results. It defines the Today struct representing the current date and encapsulates logic to determine if a year is a leap year.
@@ -31,6 +32,7 @@ Key Concepts and Tools:
 ## **Linked List Program:** 
 
 This C++ program generates random odd numbers, stores them in a linked list, and ensures that only unique numbers are stored in descending order. The program provides robust error handling and data validation, with a clean separation of logic using header and source files to ensure modular and maintainable code.
+
 Files and Structure
 
     linkedList.h: Contains the declarations for the ListNode struct and the LinkedList class.
@@ -81,6 +83,7 @@ User Interaction:
 ## **Payroll Processing Queue Program**
 
 This C++ program processes payroll for employees using a queue data structure. It reads employee information from a CSV file, calculates gross pay, taxes, and net pay, and outputs the results to both the console and text files. The program includes robust error handling, input validation, and a clean separation of logic using header and source files, ensuring modular and maintainable code.
+
 Files and Structure
 
     queueOperation.h: Contains the declarations of the Employee structure and the Queue class. It includes utility functions for enqueueing, dequeueing, displaying employees, calculating payroll details (gross pay, taxes, and net pay), and saving pay stubs to a file. The class also provides functionality to read employee data from a CSV file and generate summary reports.

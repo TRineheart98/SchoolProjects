@@ -178,7 +178,7 @@ Key Concepts and Tools:
 This C# program asks the user to identify the coolest person in Harrington's advanced programming class. It utilizes input handling and conditional logic to check if the user’s input matches predefined names, demonstrating basic string manipulation and validation.
 Files and Structure
 
-    Program.cs: Implements the core logic of the program, including:
+    CoolOrNot.cs: Implements the core logic of the program, including:
         Prompting the user for input.
         Using a method to check if the input matches certain names.
         Displaying feedback to the user based on the correctness of their input.

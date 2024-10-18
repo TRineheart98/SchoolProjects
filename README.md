@@ -2,7 +2,7 @@
 Some of the programs I have created during my pursuit in my Computer Science degree.
 I am currently set to graduate in May 2025 with a Bachelors in Computer Science from Northeastern State University.
 
-## **Payroll Processing Queue Program**
+## **C++ Payroll Processing Queue Program**
 
 This C++ program processes payroll for employees using a queue data structure. It reads employee information from a CSV file, calculates gross pay, taxes, and net pay, and outputs the results to both the console and text files. The program includes error handling, input validation, and a clean separation of logic using header and source files, ensuring modular and maintainable code.
 
@@ -59,7 +59,7 @@ User Interaction:
 
     The program provides a console menu to interact with users, offering options to create a queue, enqueue employees, dequeue employees, display employee data, and generate reports.
 
-## **Age Calculator Program:**
+## **C++ Age Calculator Program:**
 
 This C++ program calculates a person’s age based on their birthdate, providing error handling and data validation. It is designed with a clean separation of logic using header and source files, ensuring modular and maintainable code.
 
@@ -86,7 +86,7 @@ Key Concepts and Tools:
     Modular Design: Functions are clearly separated between files for ease of maintenance and expansion.
     User Interaction: The program interacts with users through a console interface, ensuring a seamless experience with clear error messages and prompts.
 
-## **Linked List Program:** 
+## **C++ Linked List Program:** 
 
 This C++ program generates random odd numbers, stores them in a linked list, and ensures that only unique numbers are stored in descending order. The program provides error handling and data validation, with a clean separation of logic using header and source files to ensure modular and maintainable code.
 
@@ -137,7 +137,7 @@ User Interaction:
 
     The program interacts with users through the console interface, providing clear error messages and feedback when duplicates are found or numbers are inserted into the linked list.
 
-## **Constructor&Deconstructor C# Program:**
+## **C# Constructor & Deconstructor Program:**
 
 This C# program demonstrates object creation using constructors, destructors, properties, and generics. It also highlights key object-oriented concepts, such as deconstructing class instances, property access, and the use of generic classes. The program features a custom class Rineheart, designed to encapsulate information about a person, including their name and age.
 Files and Structure

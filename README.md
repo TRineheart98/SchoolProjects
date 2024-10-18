@@ -137,7 +137,7 @@ User Interaction:
 
     The program interacts with users through the console interface, providing clear error messages and feedback when duplicates are found or numbers are inserted into the linked list.
 
-## **Constructor&DeconstructorC# Program:**
+## **Constructor&Deconstructor C# Program:**
 
 This C# program demonstrates object creation using constructors, destructors, properties, and generics. It also highlights key object-oriented concepts, such as deconstructing class instances, property access, and the use of generic classes. The program features a custom class Rineheart, designed to encapsulate information about a person, including their name and age.
 Files and Structure

@@ -60,7 +60,7 @@ User Interaction:
 
 ## **Age Calculator Program:**
 
-This C++ program calculates a person’s age based on their birthdate, providing robust error handling and data validation. It is designed with a clean separation of logic using header and source files, ensuring modular and maintainable code.
+This C++ program calculates a person’s age based on their birthdate, providing error handling and data validation. It is designed with a clean separation of logic using header and source files, ensuring modular and maintainable code.
 
 Files and Structure
 
@@ -87,7 +87,7 @@ Key Concepts and Tools:
 
 ## **Linked List Program:** 
 
-This C++ program generates random odd numbers, stores them in a linked list, and ensures that only unique numbers are stored in descending order. The program provides robust error handling and data validation, with a clean separation of logic using header and source files to ensure modular and maintainable code.
+This C++ program generates random odd numbers, stores them in a linked list, and ensures that only unique numbers are stored in descending order. The program provides error handling and data validation, with a clean separation of logic using header and source files to ensure modular and maintainable code.
 
 Files and Structure
 

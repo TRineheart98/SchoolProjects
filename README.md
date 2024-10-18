@@ -1,6 +1,6 @@
-# SchoolWork
-Some of the programs I have created during my pursuit in my Computer Science degree with my biggest and most difficult programs at the top.
-I am currently set to graduate in May 2025 with a Bachelors in Computer Science from Northeastern State University.
+#School Projects
+
+This repository showcases some of the programs I have developed during my pursuit of a Bachelor’s degree in Computer Science at Northeastern State University. The most complex and challenging projects are listed first. I am on track to graduate in May 2025.
 
 ## **C++ Payroll Processing Queue Program**
 

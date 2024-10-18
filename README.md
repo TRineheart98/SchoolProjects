@@ -36,6 +36,7 @@ Payroll Calculation:
 Input and Output:
 
     Reads employee data from a CSV file (payInputs.csv), processes it, and saves the payroll information, including pay stubs, to an output file.
+    Individual payrolls are saved to a text file named after my last name (Rineheart.txt).
     Generates a summary report that includes total gross pay, federal taxes, state taxes, and net pay for all employees in the queue.
 
 Error Checking and Validation

@@ -1,0 +1,14 @@
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\bin\Debug\net8.0\Homework 5 Harrington.exe
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\bin\Debug\net8.0\Homework 5 Harrington.deps.json
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\bin\Debug\net8.0\Homework 5 Harrington.runtimeconfig.json
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\bin\Debug\net8.0\Homework 5 Harrington.dll
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\bin\Debug\net8.0\Homework 5 Harrington.pdb
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\Homework 5 Harrington.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\Homework 5 Harrington.AssemblyInfoInputs.cache
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\Homework 5 Harrington.AssemblyInfo.cs
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\Homework 5 Harrington.csproj.CoreCompileInputs.cache
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\Homework 5 Harrington.dll
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\refint\Homework 5 Harrington.dll
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\Homework 5 Harrington.pdb
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\Homework 5 Harrington.genruntimeconfig.cache
+C:\Users\tyler\OneDrive\Documents\SchoolWork\Harrington - Advanced Programing\Homework 5 Harrington\obj\Debug\net8.0\ref\Homework 5 Harrington.dll

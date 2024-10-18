@@ -4,7 +4,7 @@ I am currently set to graduate in May 2025 with a Bachelors in Computer Science 
 
 ## **Payroll Processing Queue Program**
 
-This C++ program processes payroll for employees using a queue data structure. It reads employee information from a CSV file, calculates gross pay, taxes, and net pay, and outputs the results to both the console and text files. The program includes robust error handling, input validation, and a clean separation of logic using header and source files, ensuring modular and maintainable code.
+This C++ program processes payroll for employees using a queue data structure. It reads employee information from a CSV file, calculates gross pay, taxes, and net pay, and outputs the results to both the console and text files. The program includes error handling, input validation, and a clean separation of logic using header and source files, ensuring modular and maintainable code.
 
 Files and Structure
 

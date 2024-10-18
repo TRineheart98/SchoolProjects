@@ -1,5 +1,5 @@
 # SchoolWork
-Some of the programs I have created during my pursuit in my Computer Science degree.
+Some of the programs I have created during my pursuit in my Computer Science degree with my biggest and most difficult programs at the top.
 I am currently set to graduate in May 2025 with a Bachelors in Computer Science from Northeastern State University.
 
 ## **C++ Payroll Processing Queue Program**

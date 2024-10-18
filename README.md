@@ -30,7 +30,7 @@ Queue Management:
 Payroll Calculation:
 
     The program calculates gross pay based on hours worked, considering overtime hours and rates.
-    Taxes, including federal tax, state tax, social security, and Medicare, are calculated for each employee.
+    Taxes, including federal tax, state tax, social security, and Medicare, are calculated for each employee. This is the reasoning Tyler Rineheart makes $3000 an hour so that state tax is calculated.
     Net pay is determined by subtracting taxes from the gross pay, and all calculations are verified for accuracy with detailed logging.
 
 Input and Output:

@@ -173,7 +173,7 @@ Key Concepts and Tools:
 
     User Interaction: The program interacts with users through console output, printing details about the objects created, deconstructed values, and property values.
 
-## **C# String Manipulation & Validation Program**
+## **C# String Manipulation & Validation Program:**
 
 This C# program asks the user to identify the coolest person in Harrington's advanced programming class. It utilizes input handling and conditional logic to check if the user’s input matches predefined names, demonstrating basic string manipulation and validation.
 Files and Structure

@@ -1,3 +1,59 @@
+## **Payroll Processing Queue Program**
+
+This C++ program processes payroll for employees using a queue data structure. It reads employee information from a CSV file, calculates gross pay, taxes, and net pay, and outputs the results to both the console and text files. The program includes robust error handling, input validation, and a clean separation of logic using header and source files, ensuring modular and maintainable code.
+
+Files and Structure
+
+    queueOperation.h: Contains the declarations of the Employee structure and the Queue class. It includes utility functions for enqueueing, dequeueing, displaying employees, calculating payroll details (gross pay, taxes, and net pay), and saving pay stubs to a file. The class also provides functionality to read employee data from a CSV file and generate summary reports.
+    
+    main.cpp: Implements the core logic, including menu options for managing the queue and processing employee payroll. It handles employee enqueueing from a CSV file, dequeuing, and displaying employee information without removing them from the queue. The program also generates pay stubs and summary reports, ensuring accurate output of payroll data.
+    
+    payInputs.csv: This CSV file contains employee data such as email, first name, last name, job title, hours worked, hourly wage, hours before overtime, overtime rate, and federal tax rate. The program reads this file to populate the queue with employees for payroll processing.
+
+    Sample data from csv:
+    Email,FirstName,LastName,JobTitle,HoursWorked,HourlyWage,HoursBeforeOvertime,OvertimeRate,MarginalFederalTaxRate
+    tyler.rineheart@gmail.com,Tyler,Rineheart,Software Engineer,40,300,35,1.5,20
+    john.doe@gmail.com,John,Doe,Programmer,28,22,30,1.5,15
+    jane.smith@gmail.com,Jane,Smith,Database Developer,32,25,30,2.0,18
+    emily.jones@gmail.com,Emily,Jones,Networking Engineer,45,28,40,1.5,25
+
+Core Features
+Queue Management:
+
+    Employees are stored in a queue data structure with operations to enqueue and dequeue employees.
+    The queue supports operations to display employee information without removing them from the queue, ensuring ease of access and management.
+
+Payroll Calculation:
+
+    The program calculates gross pay based on hours worked, considering overtime hours and rates.
+    Taxes, including federal tax, state tax, social security, and Medicare, are calculated for each employee.
+    Net pay is determined by subtracting taxes from the gross pay, and all calculations are verified for accuracy with detailed logging.
+
+Input and Output:
+
+    Reads employee data from a CSV file (payInputs.csv), processes it, and saves the payroll information, including pay stubs, to an output file.
+    Generates a summary report that includes total gross pay, federal taxes, state taxes, and net pay for all employees in the queue.
+
+Error Checking and Validation
+
+    Ensures that queue operations are handled correctly, checking if the queue is full before enqueueing and if it is empty before dequeuing.
+    Validates that employee data is correctly formatted and properly handled during payroll calculations.
+    Includes checks to ensure that file operations (reading from the CSV and saving pay stubs) are successful.
+
+Key Concepts and Tools
+Input Validation:
+
+    The program validates the CSV file contents, ensuring that all required fields (such as hours worked and hourly wage) are correctly processed.
+    Provides meaningful error messages if the file cannot be opened or data is missing.
+
+Modular Design:
+
+    Functions are clearly separated between the header and source files, allowing for ease of maintenance and future expansion.
+
+User Interaction:
+
+    The program provides a console menu to interact with users, offering options to create a queue, enqueue employees, dequeue employees, display employee data, and generate reports.
+
 # SchoolWork
 Some of the programs I have created during my pursuit in my Computer Science degree.
 I am currently set to graduate in May 2025 with a Bachelors in Computer Science from Northeastern State University.

@@ -140,6 +140,7 @@ User Interaction:
 ## **C# Constructor & Deconstructor Program:**
 
 This C# program demonstrates object creation using constructors, destructors, properties, and generics. It also highlights key object-oriented concepts, such as deconstructing class instances, property access, and the use of generic classes. The program features a custom class Rineheart, designed to encapsulate information about a person, including their name and age.
+
 Files and Structure
 
     Rineheart.cs: Implements the core logic of the program, including:
@@ -176,6 +177,7 @@ Key Concepts and Tools:
 ## **C# String Manipulation & Validation Program:**
 
 This C# program asks the user to identify the coolest person in Harrington's advanced programming class. It utilizes input handling and conditional logic to check if the user’s input matches predefined names, demonstrating basic string manipulation and validation.
+
 Files and Structure
 
     CoolOrNot.cs: Implements the core logic of the program, including:

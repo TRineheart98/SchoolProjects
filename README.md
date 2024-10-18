@@ -206,7 +206,7 @@ Key Concepts and Tools
     User Interaction:
         The program engages the user by asking a question and providing feedback based on the input, ensuring a simple and interactive experience.
 
-## **C# String Search Program**
+## **C# String Search Program:**
 
 This C# program explores string manipulation by counting the number of uppercase letters in various strings. It also demonstrates different ways to check for empty and null strings, comparing multiple approaches for verifying string content and attributes. The program includes an example string with letters and a custom function to count uppercase characters in any given string.
 
@@ -237,3 +237,45 @@ Key Concepts and Tools
 
     User Interaction:
         The program outputs the results of each string comparison and uppercase letter count, providing feedback directly to the user through the console.
+
+## **C# File Reader and String Analysis Program:**
+
+This C# program demonstrates reading from a text file, splitting strings into words using regular expressions, and analyzing the content by counting words of specific lengths. It includes two files: one containing a set of string operations (textFile.txt) and the other, the program logic (Program.cs), which reads and processes the content of the text file.
+
+Files and Structure
+
+    textFile.txt: Contains sample string operations and comparisons, including:
+        Checking if a string is empty or null using different methods.
+        Demonstrating how NullReferenceException can be triggered when working with null strings.
+
+    Program.cs: Implements the core logic of the program, including:
+        Reading the contents of textFile.txt.
+        Splitting the first line of the file into words using a regular expression.
+        Counting how many words in the line have more than five characters.
+
+Core Features
+
+    File Reading:
+        The program reads the contents of a text file using File.ReadAllLines().
+        It handles potential exceptions like FileNotFoundException to ensure robustness when the file is missing.
+
+    String Splitting and Analysis:
+        The program splits the first line of the file into individual words using regular expressions that account for non-word characters and spaces.
+        It counts how many words in the split string are longer than five characters using LINQ's Count() method.
+
+    String Operations:
+        The textFile.txt demonstrates various string operations, such as checking for empty strings, comparing strings with null, and exploring NullReferenceException.
+
+Key Concepts and Tools
+
+    File I/O:
+        The program demonstrates basic file input operations, reading the entire content of a text file and processing it line by line.
+
+    Regular Expressions:
+        The program uses Regex.Split() to break down a line of text into individual words based on non-alphabetic characters and spaces.
+
+    Error Handling:
+        try-catch blocks are used to manage file-related exceptions, ensuring the program gracefully handles situations where the file is not found.
+
+    User Interaction:
+        The program outputs the count of words longer than five characters and any error messages directly to the console for user feedback.

@@ -279,3 +279,39 @@ Key Concepts and Tools
 
     User Interaction:
         The program outputs the count of words longer than five characters and any error messages directly to the console for user feedback.
+
+## **C# Threading Program:**
+
+This C# program demonstrates multithreading by creating and executing multiple threads. It showcases how to manage threads, handle exceptions within threads, and count the total number of threads used during the program’s execution.
+
+Files and Structure
+
+    Program.cs: Implements the core logic of the program, including:
+        Creating and starting threads.
+        Using a custom Write() method to print messages from each thread.
+        Counting the total number of threads used and displaying it to the user.
+
+Core Features
+
+    Multithreading:
+        The program creates and starts two threads (Thread t and Thread t2) using lambda expressions.
+        Each thread is responsible for printing a unique message to the console, and the Join() method ensures that the main thread waits for the completion of each created thread.
+
+    Thread-Safe Operations:
+        The program uses a try-catch block within the Write() method to handle any potential exceptions that occur during thread execution.
+        The threadCount variable is incremented in a thread-safe manner to track how many threads have been used.
+
+    Thread Identification:
+        Each thread prints its ManagedThreadId, providing a way to uniquely identify the thread responsible for each message.
+
+Key Concepts and Tools
+
+    Threading:
+        The program demonstrates the use of the Thread class to create and manage multiple threads.
+        The Start() and Join() methods are used to control thread execution and synchronization.
+
+    Error Handling:
+        The Write() method uses exception handling to catch and report any errors that occur within the threads, ensuring robust execution.
+
+    User Interaction:
+        The program outputs messages from each thread and displays the total number of threads used at the end, providing clear feedback to the user.

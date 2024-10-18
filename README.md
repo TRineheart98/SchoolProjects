@@ -172,3 +172,34 @@ Key Concepts and Tools:
     Generics: The program includes a generic class Rineheart<T>, which demonstrates how to define a class that can work with any data type.
 
     User Interaction: The program interacts with users through console output, printing details about the objects created, deconstructed values, and property values.
+
+## **C# String Manipulation & Validation Program**
+
+This C# program asks the user to identify the coolest person in Harrington's advanced programming class. It utilizes input handling and conditional logic to check if the user’s input matches predefined names, demonstrating basic string manipulation and validation.
+Files and Structure
+
+    Program.cs: Implements the core logic of the program, including:
+        Prompting the user for input.
+        Using a method to check if the input matches certain names.
+        Displaying feedback to the user based on the correctness of their input.
+
+Core Features
+
+    User Input Handling:
+        The program prompts the user to type the name of the coolest person in class.
+        Input is taken through the console using Console.ReadLine().
+
+    String Validation:
+        The IsTylerOrRineheart() method checks if the input matches either "Tyler" or "Rineheart" by converting the input to uppercase, ensuring case-insensitive comparison.
+        Conditional logic provides feedback to the user based on whether they input the correct name.
+
+Key Concepts and Tools
+
+    String Manipulation:
+        The ToUpper() method ensures that the comparison is case-insensitive, simplifying the validation logic.
+
+    Conditional Logic:
+        The program uses an if-else statement to determine if the user's input matches the target names and responds accordingly.
+
+    User Interaction:
+        The program engages the user by asking a question and providing feedback based on the input, ensuring a simple and interactive experience.

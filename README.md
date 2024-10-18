@@ -205,3 +205,35 @@ Key Concepts and Tools
 
     User Interaction:
         The program engages the user by asking a question and providing feedback based on the input, ensuring a simple and interactive experience.
+
+## **C# String Search Program**
+
+This C# program explores string manipulation by counting the number of uppercase letters in various strings. It also demonstrates different ways to check for empty and null strings, comparing multiple approaches for verifying string content and attributes. The program includes an example string with letters and a custom function to count uppercase characters in any given string.
+
+Files and Structure
+
+    Program.cs: Implements the core logic of the program, including:
+        Declaring and comparing strings to showcase various string validation techniques.
+        Invoking a custom method to count uppercase letters in different string variables.
+        Outputting the results of uppercase letter counts and string comparisons to the console.
+
+Core Features
+
+    String Comparison and Validation:
+        The program compares an empty string using multiple methods, such as checking against string.Empty, verifying length, and using string.IsNullOrEmpty().
+        It also demonstrates how to handle null strings, showing different results for null versus empty string comparisons.
+
+    Uppercase Letter Count:
+        The SearchString() method loops through each character of the string and counts how many are uppercase.
+        This function is invoked on three different strings: an empty string, a pre-defined instructional string (harringtonsString), and an alphabet string (tylersString).
+
+Key Concepts and Tools
+
+    String Manipulation:
+        The program demonstrates various techniques to work with strings in C#, such as checking for null, empty values, and measuring string length.
+
+    Looping and Conditionals:
+        The program uses a for loop to iterate through the characters in the string and char.IsUpper() to check if each character is uppercase.
+
+    User Interaction:
+        The program outputs the results of each string comparison and uppercase letter count, providing feedback directly to the user through the console.

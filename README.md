@@ -2,6 +2,7 @@
 
 This repository showcases some of the programs I have developed during my pursuit of a Bachelor’s degree in Computer Science at Northeastern State University. The most complex and challenging projects are listed first. I am on track to graduate in May 2025.
 
+LINK TO CAPSOULS GAME DEVELOPMENT REPOSITORY = https://github.com/TRineheart98/Capsouls-Game
 ## **C++ Payroll Processing Queue Program**
 
 This C++ program processes payroll for employees using a queue data structure. It reads employee information from a CSV file, calculates gross pay, taxes, and net pay, and outputs the results to both the console and text files. The program includes error handling, input validation, and a clean separation of logic using header and source files, ensuring modular and maintainable code.
